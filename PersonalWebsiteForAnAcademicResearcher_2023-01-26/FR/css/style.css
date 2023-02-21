@@ -1,0 +1,597 @@
+* {
+  box-sizing: border-box; text-decoration: none;
+}
+
+:root {
+  --gris: #f2f2f2;
+  --rouge: #d92b2b;
+  --noir: black;
+  --primary: #AF1E2D;
+  --light: #F3F3F3;
+  --grey: #8A8A8B;
+  --dark: #212121;
+}
+
+body {
+  margin: 0;
+  background-color: var(--gris);
+  font-size: 14px;
+}
+
+/* MOBILES STYLES */
+h1, h2, h3 {
+  color: var(--gris);
+  font-weight: bolder;
+  font-family: 'Merriweather Sans', sans-serif;
+  /* Maring bottom */
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 2.6em
+}
+
+h4 {
+  color: var(--noir);
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-size: 1.6em;
+  margin-bottom: 0;
+  /* line-height: 1.6; */
+}
+
+h5 {
+  color: var(--noir);
+  font-weight: bold;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: .6em;
+}
+
+h6 {
+  color: var(--noir);
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-size: 1.6em;
+  margin-bottom: 0;
+  line-height: 1.6em;
+}
+
+p {
+  color: var(--noir);
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  line-height: 1.6; }
+  /* Maring bottom */
+  /* line heights */
+
+a {
+  color: var(--noir);
+  font-weight: bold;
+  /* text-decoration: underline; */
+  }
+  /* unvisited link */
+a:link {
+  color: var(--noir);
+  font-weight:bolder;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: var(--noir);
+  /* text-decoration: underline; */
+}
+
+/* mouse over link */
+a:hover {
+  color: #E97013;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+.redheader {
+  width: 100%;
+  background: var(--rouge);
+  color: var(--gris);
+  height: 2em;
+}
+
+/* .transition-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* right: 0;
+  bottom: 0; */
+  /* width:100%;
+  height: 100vh;
+  z-index: 101;
+  background-color: var(--light);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease-in-out;
+} */
+
+/* PAGE TRANSITION */
+/* .transition-1.is-active {
+  pointer-events: all;
+  opacity: 1;
+} */
+
+
+/* -- progress bar -- */
+.header {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+  }
+
+  /* The progress container (grey background) */
+  .progress-container {
+	width: 100%;
+	height: 18px;
+	background: #ccc;
+  }
+
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+	height: 10px;
+	background: var(--rouge);
+	width: 0%;
+  }
+
+.headerlargecontainer {
+  width: 100%;
+  background-color: #f2f2f2;
+  z-index: 9;
+  position: fixed;
+  height: 150px;
+  /* position: absolute; */
+  top: 18px;
+}
+
+
+/* ANCIEN LOGO - POUR CONTOURNER ERREUR
+.mathieulogo {
+  background: url("../images/mathieulogo.svg") no-repeat;
+  background-size: 275px;
+  width: 275px;
+  height: 60px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  position: fixed;
+  z-index: 10;
+  border: blue 10px;
+
+}*/
+
+.headergrid {
+  width: 100%;
+  z-index: 10;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.langue {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  align-items: left;
+  justify-content: flex-end;
+  font-size: 1em;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: relative;
+  z-index: 5;
+  max-width: 900px;
+  padding-right: 1em;
+}
+
+.mathieutitre {
+  width: 100%;
+  z-index: 10;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2.6em;
+  color: var(--noir);
+  font-weight: bolder;
+  margin: 0.67em 0;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+#nonetextdeco {
+  text-decoration: none;
+}
+
+#nonetextdeconormalfont {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.mathieusoustitre {
+  width: 100%;
+  z-index: 10;
+  color: var(--noir);
+  text-decoration: none;
+  font-size: 1em;
+  z-index: 10;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  margin: 0.67em 0;
+  position: absolute;
+  left: 17px;
+  top: 68px;
+}
+
+.headernavigation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  max-width: 900px;
+  padding-top: 4em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  background-color: color: var(--light);
+}
+
+.headernavigation a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1.4em;
+  color: var(--dark);
+  font-weight: 600;
+  text-decoration: none;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: 0.2s;
+}
+
+
+.headernavigation a:hover {
+  border-color: var(--rouge);
+}
+
+.is-active {
+  background-color: var(--rouge);
+  color: var(--gris);
+}
+
+
+/* SECTION ACCUEIL */
+.accueil {
+  margin-top: 188px;
+  /* padding: 8em 0em 1em; */
+  /* margin-top: 100px; */
+}
+
+.mathieuphoto {
+  width: 125px;
+  position: absolute;
+  right: 18px;
+  top: -10px;
+  z-index: 1;
+}
+
+
+.jesuis {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.content {
+  padding: 1em;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bonjourportrait {
+  position: absolute;
+  top: -105px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: blue 1px solid; */
+}
+
+.joindre {
+  text-align: right;
+  margin-bottom: 1px;
+}
+.accueilsocialmedia {
+  max-width: 900px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  gap: 1.6em;
+  margin-top: 0;
+  padding-top: 1px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.6em;
+  color: var(--noir);
+  text-decoration: none;
+}
+
+
+figure img {
+  width: 100%;
+}
+
+/* INTÉRIEUR BOÎTES D'ACTIVITÉS DE DIFFUSIONS */
+.thumbnail {
+  height: 110px;
+  overflow: hidden;
+}
+
+.boitesdiffusion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-module {
+  position: relative;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  background: #FFFFFF;
+  min-width: 270px;
+  max-width: 270px;
+  margin-left: 0px;
+  margin-top: 2em;
+  margin-right: 0px;
+  height: 240px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.post-module:hover,
+.hover {
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.post-module:hover .thumbnail img,
+.hover .thumbnail img {
+  opacity: 0.6;
+}
+
+.post-module .post-content .category {
+  position: absolute;
+  top: 35px;
+  right: -5px;
+  padding: .5em .5em;
+  color: var(--gris);
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.post-module .post-content .description {
+  padding-top: 10px;
+  color: var(noir);
+  font-size: .8em;
+  line-height: 1.6em;
+  max-height: 0;
+  padding: .5em .5em;
+  /* overflow: hidden; */
+}
+
+.post-module:hover .post-content .description {
+  max-height: 200px;
+  /* transition from 0 to auto height doesn't work so we set a max-height instead */
+  opacity: 1 !important;
+}
+
+.overlay_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+/* SECTION BIOGRAPHIE */
+.biographie {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bioheader {
+  position: absolute;
+  left: 16px;
+  top:-105px;
+}
+
+.biocontent {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.credit {
+  font: Merriweather; serif;
+  text-align: right;
+  padding-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1em;
+  color: #686868;
+}
+
+
+/* FOOTER */
+
+/* NEXT BUTTON FOR AILLEURS*/
+
+.mejoindrefooter {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 4em;
+}
+
+.joindrefooter {
+  text-align: left;
+  margin-bottom: 1px;
+  margin-left: 1em;
+}
+
+.footersocialmedia {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  gap: 1.6em;
+  margin-top: 0;
+  padding-top: 1px;
+  padding-bottom: .4em;
+  padding-left: .65em;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.6em;
+  color: var(--noir);
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.footerthumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conferencecategory {
+  position: absolute;
+  z-index: 2;
+  bottom: -120px;
+  right: 18px;
+  padding: 0;
+  color: var(--gris);
+  font-size: 2.6em;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.conferenceprochain {
+  position: absolute;
+  z-index: 2;
+  bottom: -80px;
+  right: 18px;
+  padding: .5em .5em;
+  background-color: var(--rouge);
+  color: var(--gris);
+  font-size: .6em;
+  font-weight: 600;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+ .ailleurspost-module {
+  height: 140px;
+  position: relative;
+  z-index: 1;
+  display: block;
+  background: #FFFFFF;
+  width: 100%;
+  margin-top: 2em;
+  padding:0;
+  height: 100px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.ailleurspost-module:hover,
+.hover {
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.ailleurspost-module:hover .footerthumbnail img,
+.hover .footerthumbnail img {
+  opacity: 0.6;
+}
+
+
+/* PAGE SECONDAIRE */
+
+.summary {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.summary p{
+  font-style: italic;
+  font-size: 1.6em;
+}
+
+.evaluation {width: 100%; max-width: 900px; padding-top: 1em;}
+
+.bibliographie {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 4em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.sectionlivres {
+padding-top: 4.5em;
+margin-top: 1em;
+position: relative;
+text-align: center;
+}
+
+.livres {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.livres_basdepage {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--gris);
+  font-size: 3em;
+  font-weight: bold;
+  max-width: 900px
+}
