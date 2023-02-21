@@ -51,7 +51,7 @@ PersonalWebsiteForAnAcademicReasearcher/
 
 ## Creation process
 
-In the links below, I share early wireframes of the project. Thereafter, I went through an iterative process. I consulted with my teacher, classmates, and the researcher in question which guided my design decisions. 
+In the links below, I share early wireframes of the project. Thereafter, I went through an iterative process. I consulted with my teacher, classmates, and the client in question which guided my design decisions. 
 
 For example, I changed the hamburger menu for a simpler, visible, and straightforward menu system that makes the structure of the website much clearer. It also led me to reorganise the welcome page and put forward the researcher's biography.
 
@@ -67,8 +67,8 @@ For example, I changed the hamburger menu for a simpler, visible, and straightfo
 ## Thanks
 
 Special thanks to <a href="http://santoromano.com/" target="_blank">
-    Santo Romano</a> who, in addition to got me started in <a href="https://www.concordia.ca/finearts/design/programs/web-design-and-user-interface.html" target="_blank">
-    Web Design and User Interface</a>, thought me that the web was meant to be open.
+    Santo Romano</a> who, in addition to introduce me to <a href="https://www.concordia.ca/finearts/design/programs/web-design-and-user-interface.html" target="_blank">
+    Web Design and User Interface</a>, taught me that the web was meant to be open. Let's Copy. Transform. Combine.
 
 ## Copyright and license
 
