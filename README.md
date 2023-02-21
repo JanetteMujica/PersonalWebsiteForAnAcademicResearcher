@@ -68,7 +68,11 @@ For example, I changed the hamburger menu for a simpler, visible, and straightfo
 
 Special thanks to <a href="http://santoromano.com/" target="_blank">
     Santo Romano</a> who, in addition to introduce me to <a href="https://www.concordia.ca/finearts/design/programs/web-design-and-user-interface.html" target="_blank">
-    Web Design and User Interface</a>, taught me that the web was meant to be open. Let's Copy. Transform. Combine.
+    Web Design and User Interface</a>, taught me that the web was meant to be open. 
+    
+    Let's Copy. Transform. Combine.
+
+
 
 ## Copyright and license
 
