@@ -51,7 +51,9 @@ PersonalWebsiteForAnAcademicReasearcher/
 
 ## Creation process
 
-In the links below, I share early wireframes of the project. Since then, I went through an iterative process with my teacher, classmates, users, and researcher in question, that guided my design decisions. For example, I changed the hamburger icon menu for a much simpler, visible, and straightforward menu system that makes the content of the website very clear. It also led me to reorganise the welcome page to put forward the researcher's biography.
+In the links below, I share early wireframes of the project. Thereafter, I went through an iterative process. I consulted with my teacher, classmates, and the researcher in question which guided my design decisions. 
+
+For example, I changed the hamburger menu for a simpler, visible, and straightforward menu system that makes the structure of the website much clearer. It also led me to reorganise the welcome page and put forward the researcher's biography.
 
 - <a href="https://mathieubcd.com/midterm.mathieubcd.com/index.html" target="_blank">
     Project</a>
