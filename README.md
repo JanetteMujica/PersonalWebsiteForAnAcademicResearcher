@@ -51,7 +51,7 @@ PersonalWebsiteForAnAcademicReasearcher/
 
 ## Creation process
 
-In the links below, I share early wireframes of the project. Thereafter, I went through an iterative process. I consulted with my teacher, classmates, and the client which guided my design decisions. 
+In the links below, I share early wireframes of the project. Thereafter, I went through an iterative process. I consulted with my teacher, classmates, and client. Their feedback guided my design decisions. 
 
 For example, I changed the hamburger menu for a simpler, visible, and straightforward menu system that makes the structure of the website much clearer. It also led me to reorganise the welcome page and put forward the researcher's biography.
 
