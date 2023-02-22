@@ -18,7 +18,7 @@
 
 - [What's included](#whats-included)
 - [Creation process](#creation-process)
-- [Thanks](#thanks)
+- [Acknowledgement](#acknowledgement)
 - [Copyright and license](#copyright-and-license)
 
 
@@ -51,9 +51,9 @@ PersonalWebsiteForAnAcademicReasearcher/
 
 ## Creation process
 
-In the links below, I share early wireframes of the project. From there on, I went through an iterative process. I consulted my teacher, classmates, and client. Their feedback guided my design decisions. 
+In the links below, I share early wireframes of the project. From there on, I went through an iterative process. I consulted my instructor, classmates, and client. Their feedback guided my design decisions. 
 
-For example, I changed the hamburger menu for a simpler, visible, and straightforward menu system that makes the structure of the website much clearer. It also led me to reorganise the welcome page and bring forward the client main message around his research orientation and carreer objective.
+For example, I changed the hamburger menu for a simpler, visible, and straightforward menu system that makes the structure of the website much clearer. It also led me to reorganise the welcome page and bring forward the client's main message around his research orientation and carreer objective.
 
 - <a href="https://mathieubcd.com/midterm.mathieubcd.com/index.html" target="_blank">
     Project</a>
@@ -64,7 +64,7 @@ For example, I changed the hamburger menu for a simpler, visible, and straightfo
 
 
 
-## Thanks
+## Acknowledgement
 
 Special thanks to <a href="http://santoromano.com/" target="_blank">
     Santo Romano</a> who, in addition to introduce me to <a href="https://www.concordia.ca/finearts/design/programs/web-design-and-user-interface.html" target="_blank">
