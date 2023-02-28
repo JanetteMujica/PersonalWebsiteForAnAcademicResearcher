@@ -37,7 +37,7 @@ PersonalWebsiteForAnAcademicReasearcher/
         index.html
         publications.html
     └── FR/
-        └──css
+        └── css
         └── images
         └── js
         └── pdf
